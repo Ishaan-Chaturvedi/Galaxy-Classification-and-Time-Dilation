@@ -6,6 +6,7 @@ v = 460
 
 Q = int(input()) # no. of test cases
 for i in range(Q):
+    print("Enter the radius in meters")
     r = float(input())
     sr = (1-(G * M)/(r * c ** 2 )) ** (0.5)
     gr = (1- (2* G * M)/(r * c ** 2)) ** (0.5)
