@@ -10,6 +10,6 @@ for i in range(Q):
     sr = (1-(G * M)/(r * c ** 2 )) ** (0.5)
     gr = (1- (2* G * M)/(r * c ** 2)) ** (0.5)
     t = ( 86400/((sr) + (gr) - 1) ) * ( (sr) + (gr) - (1-((460/c)**2))** (0.5)- (1 - ((2*G*M)/(R*c**(2))))**(0.5))
-    print("{:e}".format(round(t, 5)))
+    print("{:e}".format(round(t, 5)) + " seconds")
     
 
